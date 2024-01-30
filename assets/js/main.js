@@ -5,6 +5,7 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
 (function() {
   "use strict";
 
@@ -268,3 +269,10 @@
   new PureCounter();
 
 })()
+
+function expandir() {
+  var content = document.querySelector('.about-content');
+  content.classList.toggle('expandido');
+  var lerMais = document.querySelector('.ler-mais');
+  lerMais.style.display = 'none'; // Esconde o botão 'LER MAIS' depois de clicar
+}
