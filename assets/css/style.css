@@ -531,7 +531,7 @@ section {
 }
 .services {
   background-color: #eaf6ff; /* Cor de fundo azul claro */
-  border-radius: 0px;
+  border-radius: 80px;
 }
 
 .services .icon-box {
